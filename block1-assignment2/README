@@ -1,0 +1,5 @@
+Linux:
+    java -cp "out/artifacts/assignment2/assignment2.jar:checkstyle-9.3-all.jar" com.puppycrawl.tools.checkstyle.Main -o myCheckStyleOutput -c my_checks.xml test.java
+
+Windows:
+    java -cp "out/artifacts/assignment2/assignment2.jar;checkstyle-9.3-all.jar" com.puppycrawl.tools.checkstyle.Main -o myCheckStyleOutput -c my_checks.xml test.java
